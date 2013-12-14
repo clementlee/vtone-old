@@ -1,1 +1,6 @@
 /* mobile css */
+
+body 
+{
+  text-rendering: optimizeLegibility;
+}
