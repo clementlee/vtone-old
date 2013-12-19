@@ -1,7 +1,10 @@
 /* standard css */
 
-body 
-{
+body {
   text-rendering: optimizeLegibility;
-  font-family:'Verdana'
+  font-family:'Verdana';
+}
+
+.logo {
+  width:240px;
 }
