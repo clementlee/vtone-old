@@ -5,9 +5,10 @@ body {
   font-family:'Verdana', sans-serif;
 }
 
-.logo {
-  margin: 0 auto;
-  width:300px;
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sidebox {
@@ -41,5 +42,4 @@ body {
 .footer {
   text-align:center;
   margin: 0 auto;
-  font-family:serif;
 }
