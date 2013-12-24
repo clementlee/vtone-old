@@ -13,8 +13,11 @@ img.logo {
   /*background:rgb(50, 58, 96);*/
   background:rgb(255,255,255);
   color:rgb(0,0,0);
-  width: 200px;
-  height: 200px;
+  width: 385px;
+  height: 385px;
+  position:relative;
+  left:115px;
+  top:-60px;
 }
 
 .sidebox:hover{
@@ -24,15 +27,15 @@ img.logo {
 .navrow {
   margin:0;
   padding:0;
-  height:40px;
-  width:200px;
+  height:77px;
+  width:385px;
   font-size:0px;
   position:relative;
 }
 
 .navrow li {
-  font-size:30px;
-  width:40px;
+  font-size:70px;
+  width:77px;
   text-align:center;
   display:inline-block;
 }
