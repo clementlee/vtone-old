@@ -1,0 +1,216 @@
+body {
+  background:#ddd url('stripebg.png');
+  font-family:'Verdana';
+}
+a {
+  color:inherit;
+  text-decoration:none;
+}
+.aspectwrapper {
+  margin-top:40px;
+  margin-left:40%;
+  display: inline-block; /* shrink to fit */
+  min-width:300px;
+  width: 50%; /* whatever width you like */
+  position: relative; /* so .content can use position: absolute */
+}
+.aspectwrapper::after {
+  padding-top: 100%; /* percentage of containing block _width_ */
+  display: block;
+  content: '';
+}
+.leftcol {
+  position:absolute;
+  right:100%;
+  margin-right:9px;
+  top:0;
+  width:80%;
+}
+.leftrow {
+  float:right;
+  width:100%;
+}
+.logo{
+  margin-left:auto;
+  margin-right:0;
+  background:white;
+  -moz-box-shadow: 1px 1px 8px gray;
+  -webkit-box-shadow: 1px 1px 8px gray;
+  box-shadow: 1px 1px 8px gray;
+  width:200px;
+  height:60px;
+  padding-top:2px;
+  padding-right:2px;
+}
+.sidebar {
+  margin-left:auto;
+  margin-right:0;
+  background:rgba(255,255,255,0.8);
+  -moz-box-shadow: 1px 1px 8px gray;
+  -webkit-box-shadow: 1px 1px 8px gray;
+  box-shadow: 1px 1px 8px gray;
+  width: 155px;
+  height:155px;
+  padding-top:5px;
+  margin-top:10px;
+}
+.leftbox {
+  margin-left:auto;
+  margin-right:0;
+  background:rgba(255,255,255,0.8);
+  -moz-box-shadow: 1px 1px 8px gray;
+  -webkit-box-shadow: 1px 1px 8px gray;
+  box-shadow: 1px 1px 8px gray;
+  width: 240px;
+  margin-top:10px;
+  padding:5px 5px 5px 5px;
+  font-size:8pt;
+}
+.leftbox a {
+  text-decoration:underline;
+}
+.navrow {
+  margin:0;
+  padding:0;
+  height:30px;
+  width:155px;
+  font-size:0px;
+  position:relative;
+}
+.navrow li {
+  font-size:25px;
+  width:31px;
+  text-align:center;
+  display:inline-block;
+}
+.navrow .diag {
+  color:#d00;
+}
+.navrow .hidden {
+  display:none;
+}
+.navrow:hover > .hidden {
+  position:absolute;
+  background:#eee;
+  top:0;
+  display:block;
+}
+#foot {
+  margin-left:auto;
+  margin-right:0;
+  width:auto;
+  text-align:right;
+  font-size:7px;
+  white-space: nowrap;
+}
+#foot a {
+  text-decoration:none;
+}
+#vtonecontent {
+  background:rgba(255,255,255,0.8);
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0; /* follow the parent's edges */
+  -moz-box-shadow: 1px 1px 8px gray;
+  -webkit-box-shadow: 1px 1px 8px gray;
+  box-shadow: 1px 1px 8px gray;
+  min-width:400px;
+  min-height:400px;
+  max-width:600px;
+  max-height:600px;
+}
+.flexslider .slides li {
+  position:relative;
+}
+.flex-caption {
+  position:absolute;
+  width:96%;
+  padding:2%;
+  left:0;bottom:-16px;
+  background:rgba(0, 0, 0,0.6);
+  z-index:1;
+  color:white;
+  text-align:center;
+ }
+.flexslider {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+  box-shadow: 0;
+}
+.flex-control-nav {
+  width:100%;
+  position:absolute;
+  bottom:-30px;
+  text-align:center;
+  list-style: none;
+}
+/* Control Nav */
+.links-control-nav {
+  width:450px;
+  position:absolute;
+  bottom:-50px;
+  text-align:center;
+  list-style: none;
+}
+.links-control-nav div {
+  position:relative;
+  cursor: pointer;
+  margin: 0 0;
+  display:inline-block;
+  zoom: 1;
+  width:32px;
+  height:32px;
+}
+.links-control-nav div:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:32px;
+  height:32px;
+  opacity:0.5; 
+}
+.links-control-nav div:hover:after {
+  opacity:0.7; 
+}
+.links-control-nav div[class="flex-active"]:after,.links-control-nav div[class="flex-active"]:hover:after {
+  opacity:0.9;
+}
+.links-control-nav #fbicon:after {
+  background-image: url('links/facebook.png');
+}  
+.links-control-nav #twicon:after {
+  background-image: url('links/twitter.png');
+}
+.links-control-nav #yticon:after {
+  background-image: url('links/youtube.png');
+}
+.links-control-nav #gpicon:after {
+  background-image: url('links/gplus2.png');
+}
+#youmax img {
+  width:auto;
+  display:inline-block;
+}
+#youmax #youmax-header a img {
+  margin: 15px;
+  float:right;
+}
+#youmax-stat-holder, #youmax-tabs {display:none !important;}
+.youmax-video-tnail {height:106.8px !important;}
+.youmax-video-list-title {max-height:none !important;}
+#g-badge {
+  margin-top:108px;
+}
+#g-badge iframe {
+  height: 234px !important;
+}
+#g-badge iframe div[role="button"]{
+  width: 96px !important;
+}
+
