@@ -1,4 +1,0 @@
-vtone
-=====
-
-Princeton VTone website

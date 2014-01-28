@@ -5,7 +5,7 @@
   </li>
   <li>
     <img src="peeps/brandon.jpg" />
-    <p class="flex-caption">Brandon Jaja</p>
+    <p class="flex-caption">Brandon Djaja</p>
   </li>
   <li>
     <img src="peeps/brian.jpg" />
